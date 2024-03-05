@@ -352,14 +352,6 @@ async function insertionSort() {
 
 
 
-
-
-
-
-
-
-
-
 // MERGE SORT
 async function mergeSort() {
 	updateTimeComplexity('O(n log n)');
