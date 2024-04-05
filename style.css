@@ -571,6 +571,7 @@ body.sorting {
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: auto;
   gap: 25px;
+  
   padding: 5px;
 }
 
