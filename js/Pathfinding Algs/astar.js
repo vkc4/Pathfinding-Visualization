@@ -115,12 +115,14 @@ async function astarTime(delayTime, type) {
   }
 
   // Color the path from end to start
-  let node = endNode;
+  
+  let node =endNode;
   while (node != startTile && !resetOn) {
     if (node !== endNode) {
       if (delayTime == 0) {
         tiles[node].element.style.backgroundColor = '#f5ff5e';
-      } else {
+      } 
+      else {
         visitedAnimation(tiles[node], '#f5ff5e');
         await delay(delayTime); 
       }
