@@ -448,7 +448,8 @@ async function mergeSortHelper2(a, b) {
 			updateComparisonNum();
 			if (barHeightValues[i] !== c[i]) {
 				let j = barHeightValues.indexOf(c[i]);
-				swapBars(i, j);
+				
+				swapBars(i,j);
 				playAudio(j, i);
 				await delay(speed * 5);
 			}
